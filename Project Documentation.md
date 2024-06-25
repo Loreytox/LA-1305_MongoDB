@@ -64,8 +64,7 @@ This project is a console application that interacts with a MongoDB database to 
 Total: 750'
 
 ## 3 Entscheiden
-
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+I decided to use MongoDB Compass, since I had to make a project with it in another Modul. I found it to be quite simple but also interesting, since it opened the door to a vast array of possibilities. I chose to make a Joke program, since I felt like it would habe been an adequate use of the DB and C# to show my mastery of it. Of course I still have a lot to learn, but I found this project quite fun and not as simple as I thought.
 
 ## 4 Decide
 
