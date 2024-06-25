@@ -98,7 +98,3 @@ I decided to use MongoDB Compass, since I had to make a project with it in anoth
 | 4.2  | 7.06.2024      | iO         | Lorenzo       |
 
 Conclusion: I was able to implement everything within the given amount of time.
-
-## 6 Evaluate
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
