@@ -43,7 +43,7 @@ This project is a console application that interacts with a MongoDB database to 
 
 ### 1.4 Diagrams
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![FunnyJokesPAP](https://github.com/Loreytox/LA-1305_MongoDB/assets/110893594/8a49161d-d584-4d7a-b356-257f06f1d8a1)
 
 ## 2 Plan
 
