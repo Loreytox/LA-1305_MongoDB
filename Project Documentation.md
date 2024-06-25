@@ -2,7 +2,7 @@
 This is a program with C# and MongoDB
 Author: Lorenzo Lai
 
-# Projekt-Dokumentation
+# Project Documentation
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -14,10 +14,10 @@ Author: Lorenzo Lai
 |   7.06.2024   | 0.1.1     | The C# project has been successfully updated. The CRUD funtions are now fully operational. There is a small problem with the Bson file.                                                             |
 |   14.06.2024   | 1.0.0     | The Bson file problem has been solved and the project has been terminated.                                                             |
 
-## 1 Informieren
+## 1 Inform
 
-### 1.1 Ihr Projekt
-Author: Lorenzo Lai
+### 1.1 Your Project
+This project is a console application that interacts with a MongoDB database to perform CRUD operations on a collection of jokes in C#.
 
 ### 1.2 User Stories
 
@@ -28,12 +28,18 @@ Author: Lorenzo Lai
 | 3  | Must                | Functional     | As a user, I want to update jokes so that the collection contains corrected or improved jokes.                                   |
 | 4  | Must                | Functional     | As a user, I want to exit the application when I am done.                                   |
 
-### 1.3 Testfälle
+### 1.3 Test Cases
 
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
+| TC-№ | Initial Condition | Input | Expected Output |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | The application is running.             | "Inputs an invalid joke type".         |                   | Error. Invalid joke type not accepted, please try again.
+| 1.2  | The application is running.             | "Inputs a valid joke type".        | "A joke of the specified type is displayed".                  |
+| 2.1  | A joke is displayed.             | "Inputs an invalid command".        | Error. Invalid command not accepted, please try again.                  |
+| 2.2  | A joke is displayed.             | "Inputs delete".        | Joke deleted. "A joke of the specified type is displayed".                   |
+| 3.1  | A joke is displayed.             | "Inputs an invalid command"        | Error. Invalid command not accepted, please try again.                  |
+| 3.2  | A joke is displayed.             | "Inputs update"        | Please write down the new joke.                  |
+| 4.1  | A joke is displayed.             | "Inputs an invalid command"        | Error. Invalid command not accepted, please try again.                  |
+| 4.2  | A joke is displayed.            | "Inputs exit"        | "Program closes".                  |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
