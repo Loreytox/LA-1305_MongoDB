@@ -83,26 +83,23 @@ Total: 750'
 | 4.A  | 31.05.2024 / 7.06.2024      | Lorenzo          | 5'              | 10'                  |
 | 4.B  | 31.05.2024 / 7.06.2024      | Lorenzo          | 30'              | 30'                  |
 
-## 5 Kontrollieren
+## 5 Control
 
-### 5.1 Testprotokoll
+### 5.1 Test Protocol
 
-| TC-№ | Datum | Resultat | Tester |
+| TC-№ | Date | Result | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 17.05.2024     | iO         | Lorenzo       |
+| 1.2  | 17.05.2024     | iO         | Lorenzo       |
+| 2.1  | 7.06.2024      | iO         | Lorenzo       |
+| 2.2  | 7.06.2024      | iO         | Lorenzo       |
+| 3.1  | 7.06.2024      | iO         | Lorenzo       |
+| 3.2  | 7.06.2024      | iO         | Lorenzo       |
+| 4.1  | 7.06.2024      | iO         | Lorenzo       |
+| 4.2  | 7.06.2024      | iO         | Lorenzo       |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Conclusion: I was able to implement everything within the given amount of time.
 
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
-## 6 Auswerten
+## 6 Evaluate
 
 ✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
