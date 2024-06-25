@@ -4,7 +4,7 @@ Author: Lorenzo Lai
 
 # Project Documentation
 
-| Datum | Version | Zusammenfassung                                              |
+| Date | Version | Summary                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |   3.05.2024    | 0.0.1   | The project has been initiated. C# Project has been created and the MongoDb Compass Database has been made. |
 |   10.05.2024   | 0.0.2    | The project in C# has been initiated. Bson has been implemented.                                                            |
@@ -21,7 +21,7 @@ This project is a console application that interacts with a MongoDB database to 
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
+| US-№ | Priority | Type  | Description                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Must               | Functional     | As a user, I want to view jokes of a specific type so that I can enjoy humor that suits my preference.  |
 | 2  | Must                | Functional     | As a user, I want to delete jokes so that the collection only contains jokes I like.                                   |
@@ -41,18 +41,25 @@ This project is a console application that interacts with a MongoDB database to 
 | 4.1  | A joke is displayed.             | "Inputs an invalid command"        | Error. Invalid command not accepted, please try again.                  |
 | 4.2  | A joke is displayed.            | "Inputs exit"        | "Program closes".                  |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
-### 1.4 Diagramme
+### 1.4 Diagrams
 
 ✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
-## 2 Planen
+## 2 Plan
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
+| AP-№ | Deadline | Responsible | Description | Estimated Time |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |  14.06.2024     |  Lorenzo         | Set up MongoDB and create the database and collection.             | 60'              |
+| 1.B  |  14.06.2024     |  Lorenzo         | Implement the Joke class.             | 15'              |
+| 1.C  |  14.06.2024     |  Lorenzo         | Implement MongoDB connection in the console app.             | 10'              |
+| 1.D  |  14.06.2024     |  Lorenzo         | Implement the method to view jokes by type.             | 120'              |
+| 1.E  |  14.06.2024     |  Lorenzo         | Secure the program from error types.             | 120'              |
+| 2.A  |  14.06.2024     |  Lorenzo         | Research about the delete functionality.             | 30'              |
+| 2.B  |  14.06.2024     |  Lorenzo         | Implement delete joke functionality.             | 120'              |
+| 3.A  |  14.06.2024     |  Lorenzo         | Research about the update functionality.             | 60'              |
+| 3.B  |  14.06.2024     |  Lorenzo         | Implement update joke functionality.             | 180'              |
+| 4.A  |  14.06.2024     |  Lorenzo         | Research about the exit functionality.            | 5'              |
+| 4.B  |  14.06.2024     |  Lorenzo         | Implement exit functionality.             | 30'              |
 
 Total: 
 
