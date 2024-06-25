@@ -32,7 +32,7 @@ This project is a console application that interacts with a MongoDB database to 
 
 | TC-№ | Initial Condition | Input | Expected Output |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | The application is running.             | "Inputs an invalid joke type".         |                   | Error. Invalid joke type not accepted, please try again.
+| 1.1  | The application is running.             | "Inputs an invalid joke type".         | Error. Invalid joke type not accepted, please try again.                  | 
 | 1.2  | The application is running.             | "Inputs a valid joke type".        | "A joke of the specified type is displayed".                  |
 | 2.1  | A joke is displayed.             | "Inputs an invalid command".        | Error. Invalid command not accepted, please try again.                  |
 | 2.2  | A joke is displayed.             | "Inputs delete".        | Joke deleted. "A joke of the specified type is displayed".                   |
