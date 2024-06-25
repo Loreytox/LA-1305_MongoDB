@@ -61,24 +61,27 @@ This project is a console application that interacts with a MongoDB database to 
 | 4.A  |  14.06.2024     |  Lorenzo         | Research about the exit functionality.            | 5'              |
 | 4.B  |  14.06.2024     |  Lorenzo         | Implement exit functionality.             | 30'              |
 
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+Total: 750'
 
 ## 3 Entscheiden
 
 ✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
 
-## 4 Realisieren
+## 4 Decide
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
+| AP-№ | Date | Responsible | Estimated Time | Actual Time |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+| 1.A  | 3.05.2024       | Lorenzo          | 60'              | 80'                  |
+| 1.B  | 10.05.2024      | Lorenzo          | 15'              | 30'                  |
+| 1.C  | 10.05.2024      | Lorenzo          | 10'              | 5'                 |
+| 1.D  | 24.05.2024      | Lorenzo          | 120'              | 160'                  |
+| 1.E  | 14.06.2024      | Lorenzo          | 120'              | 180'                  |
+| 2.A  | 31.05.2024 / 7.06.2024      | Lorenzo          | 30'              | 45'                  |
+| 2.B  | 31.05.2024 / 7.06.2024      | Lorenzo          | 120'              | 180'                  |
+| 3.A  | 31.05.2024 / 7.06.2024      | Lorenzo          | 60'              | 80'                  |
+| 3.B  | 31.05.2024 / 7.06.2024      | Lorenzo          | 180'              | 200'                  |
+| 4.A  | 31.05.2024 / 7.06.2024      | Lorenzo          | 5'              | 10'                  |
+| 4.B  | 31.05.2024 / 7.06.2024      | Lorenzo          | 30'              | 30'                  |
 
 ## 5 Kontrollieren
 
